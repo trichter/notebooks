@@ -6,7 +6,7 @@ To run through notebooks locally clone the notebooks repository or download the 
 Navigate to the notebooks folder and run `jupyter notebook` to play with the code and the data.
 Dependencies of the notebooks are:
 
-* [ObsPy](http://www.obspy.org)
+* [ObsPy](http://www.obspy.org) v1.0 or later
 * [h5py](http://www.h5py.org/)
 * [obspyh5](https://github.com/trichter/obspyh5)
 * [tqdm](https://pypi.python.org/pypi/tqdm)
