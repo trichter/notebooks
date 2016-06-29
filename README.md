@@ -10,5 +10,6 @@ Dependencies of the notebooks are:
 * [h5py](http://www.h5py.org/)
 * [obspyh5](https://github.com/trichter/obspyh5)
 * [tqdm](https://pypi.python.org/pypi/tqdm)
+* [rf](https://github.com/trichter/rf)
 
 All notebooks require ObsPy to be installed. The other dependencies are only required by subsets of the notebooks.
