@@ -13,3 +13,4 @@ pip install obspyh5 rf yam
 
 After that, clone the notebooks repository or download individual notebooks.
 Navigate to the folder of the repository and run `jupyter notebook` to play with the code and the data.
+A `data` folder has to be created in that directory.
