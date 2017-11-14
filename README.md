@@ -2,14 +2,14 @@
 
 To view notebooks online visit [nbviewer](http://nbviewer.jupyter.org/github/trichter/notebooks/tree/master/notebooks/).
 
-To run through notebooks locally clone the notebooks repository or download the zip file.
-Navigate to the notebooks folder and run `jupyter notebook` to play with the code and the data.
-Dependencies of the notebooks are:
+If you want to run notebooks locally, please first install the following packages: `obspy obspyh5 tqdm rf yam`.
+The easiest way to install the dependencies is via [anaconda](https://conda.io/miniconda.html):
 
-* [ObsPy](http://www.obspy.org) v1.0 or later
-* [h5py](http://www.h5py.org/)
-* [obspyh5](https://github.com/trichter/obspyh5)
-* [tqdm](https://pypi.python.org/pypi/tqdm)
-* [rf](https://github.com/trichter/rf)
+```
+conda create -n notebooks python=3 obspy h5py tqdm cartopy geographiclib shapely gcc
+(source) activate notebooks
+pip install obspyh5 rf yam
+```
 
-All notebooks require ObsPy to be installed. The other dependencies are only required by subsets of the notebooks.
+After that, clone the notebooks repository or download individual notebooks.
+Navigate to the folder of the repository and run `jupyter notebook` to play with the code and the data.
