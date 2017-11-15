@@ -1,6 +1,6 @@
 ## Collection of Jupyter notebooks
 
-To view notebooks online visit [nbviewer](http://nbviewer.jupyter.org/github/trichter/notebooks/tree/master/notebooks/).
+To view notebooks online visit [nbviewer](http://nbviewer.jupyter.org/github/trichter/notebooks/tree/master/).
 
 If you want to run notebooks locally, please first install the following packages: `obspy obspyh5 tqdm rf yam`.
 The easiest way to install the dependencies is via [anaconda](https://conda.io/miniconda.html):
