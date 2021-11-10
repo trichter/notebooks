@@ -7,7 +7,7 @@ The easiest way to install the dependencies is via [anaconda](https://conda.io/m
 
 ```
 conda create -n notebooks python=3 obspy h5py tqdm cartopy geographiclib shapely gcc
-(source) activate notebooks
+conda activate notebooks
 pip install obspyh5 rf yam
 ```
 
