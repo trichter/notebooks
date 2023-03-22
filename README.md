@@ -2,11 +2,11 @@
 
 To view notebooks online visit [nbviewer](http://nbviewer.jupyter.org/github/trichter/notebooks/tree/master/).
 
-If you want to run notebooks locally, please first install the following packages: `obspy obspyh5 tqdm rf yam`.
+If you want to run notebooks locally, please first install the following packages: `jupyter obspy obspyh5 tqdm rf yam`.
 The easiest way to install the dependencies is via [anaconda](https://conda.io/miniconda.html):
 
 ```
-conda create -n notebooks python=3 obspy h5py tqdm cartopy geographiclib shapely gcc
+conda create -n notebooks python=3 jupyter obspy h5py tqdm cartopy geographiclib shapely gcc
 conda activate notebooks
 pip install obspyh5 rf yam
 ```
